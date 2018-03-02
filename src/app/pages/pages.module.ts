@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
+import { PAGUES_ROUTES } from './pages.routes';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SharedModule } from '../shared/shared.module';
         ProgressComponent
     ],
     imports: [
-        SharedModule
+        SharedModule,
+        PAGUES_ROUTES
     ]
 })
 
