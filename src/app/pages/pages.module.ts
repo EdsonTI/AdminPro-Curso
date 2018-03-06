@@ -17,6 +17,8 @@ import { FormsModule } from '@angular/forms';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 
+// configuración del tema
+import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
 
 @NgModule({
     declarations: [
@@ -25,7 +27,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent, // temporal
-        GraficoDonaComponent
+        GraficoDonaComponent, AcountSettingsComponent
     ],
     exports: [
         PagesComponent,
