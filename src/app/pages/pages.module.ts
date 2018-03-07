@@ -19,6 +19,9 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 
 // configuración del tema
 import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
+// promesas y observables
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +30,7 @@ import { AcountSettingsComponent } from './acount-settings/acount-settings.compo
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent, // temporal
-        GraficoDonaComponent, AcountSettingsComponent
+        GraficoDonaComponent, AcountSettingsComponent, PromesasComponent, RxjsComponent
     ],
     exports: [
         PagesComponent,
