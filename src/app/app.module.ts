@@ -12,7 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
 // temporal
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
@@ -31,7 +31,8 @@ import { ServiceModule } from './services/service.module';
     APP_ROUTES, // modulo de rutas de las paginas
     PagesModule, // modulo de paginas web
     ServiceModule, // modulo de servicios
-    FormsModule // temporal
+    FormsModule, // temporal
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
